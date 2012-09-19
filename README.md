@@ -23,10 +23,10 @@ How to install and use it
 
 1. Get the files from GitHub or right here at Smashing Magazine.
     a. If you’re downloading from Smashing Magazine, unzip the file.
-    b. If you’re pulling the files from GitHub, you can download a zipped file or clone the repository directly onto your machine. Here’s the command you’ll use in the command line: <pre>git@github.com:joshuamauldin/ios-grid-system.git</pre>
+    b. If you’re pulling the files from GitHub, you can download a zipped file or clone the repository directly onto your machine. Here’s the command you’ll use in the command line: <pre>git clone git@github.com:joshuamauldin/ios-grid-system.git</pre>
 2. Move your files into the following directory: 
     a. For Mac users: Applications » Fireworks CS6* » Configuration » Commands
-    b. For Windows users: (INSERT PATH)
+    b. For Windows users: Local Disk » Program Files (x86) » Adobe » Adobe Fireworks » Configuration » Commands
 3. Open Fireworks and create a new document
     a. As previously mentioned, the size doesn’t matter. The command will resize your page accordingly.
 
