@@ -1,0 +1,48 @@
+﻿<macromedia-extension
+	 name="iOS Grid System"
+	 version="1.0"
+	 id="com.joshuamauldin.iosgridsystem"
+	 type="command"
+	 locked="false">
+
+	<author name="Joshua Mauldin" />
+
+	<products>
+		<product name="Fireworks" version="8" primary="true" />
+	</products>
+	
+	<description><![CDATA[
+	It’s optimized for all Apple’s devices in both portrait and landscape modes. It will be updated as new devices and resolutions arrive. For clarity:<br />
+
+	• Non-Retina iPhones
+	• Retina iPhones
+	• iPhone 5
+	• Non-Retina iPad (includes iPad Mini)
+	• Retina iPad<br />
+	
+	This command doesn’t interfere with your existing artwork. It creates new shapes as symbols on a new layer. iOS Grid System also adds guides for all the columns and gutters, if that's your thing. It will resize your existing canvas, so it’s best to use this earlier on than later.<br />
+
+	You can use any of these commands multiple times in one document. Just create a new page and select the command you wish to run. That’s it!
+	]]></description>
+
+	<ui-access><![CDATA[
+	To access this command, look under Commands > iOS Grid System
+	]]></ui-access>
+
+	<license-agreement>
+	</license-agreement>
+
+	<files>
+		<file source="iPad - Landscape -16 Column.jsf" destination="$fireworks/Configuration/Commands/iOS Grid System/" file-type="ordinary" />
+		<file source="iPad - Portrait -12 Column.jsf" destination="$fireworks/Configuration/Commands/iOS Grid System/" file-type="ordinary" />
+		<file source="iPad Retina - Landscape - 16 Column.jsf" destination="$fireworks/Configuration/Commands/iOS Grid System/" file-type="ordinary" />
+		<file source="iPad Retina - Portrait -12 Column.jsf" destination="$fireworks/Configuration/Commands/iOS Grid System/" file-type="ordinary" />
+		<file source="iPhone - Landscape - 12 Column.jsf" destination="$fireworks/Configuration/Commands/iOS Grid System/" file-type="ordinary" />
+		<file source="iPhone - Portrait - 8 Column.jsf" destination="$fireworks/Configuration/Commands/iOS Grid System/" file-type="ordinary" />
+		<file source="iPhone 5 - Landscape - 13 Column.jsf" destination="$fireworks/Configuration/Commands/iOS Grid System/" file-type="ordinary" />
+		<file source="iPhone 5 - Portrait - 8 Column.jsf" destination="$fireworks/Configuration/Commands/iOS Grid System/" file-type="ordinary" />
+		<file source="iPhone Retina - Landscape - 12 Column.jsf" destination="$fireworks/Configuration/Commands/iOS Grid System/" file-type="ordinary" />
+		<file source="iPhone Retina - Portrait - 8 Column.jsf" destination="$fireworks/Configuration/Commands/iOS Grid System/" file-type="ordinary" />
+	</files>
+
+</macromedia-extension>
