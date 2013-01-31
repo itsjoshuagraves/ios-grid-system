@@ -22,7 +22,7 @@
 	
 	This command doesn’t interfere with your existing artwork. It creates new shapes as symbols on a new layer. iOS Grid System also adds guides for all the columns and gutters, if that's your thing. It will resize your existing canvas, so it’s best to use this earlier on than later.<br />
 
-	You can use any of these commands multiple times in one document. Just create a new page and select the command you wish to run. That’s it!
+	You can use any of these commands multiple times in one document, but not each page. Just create a new page and select the command you wish to run. That’s it! Things can get weird if you're running them multiple times on the same page. But why would you want to do that?
 	]]></description>
 
 	<ui-access><![CDATA[

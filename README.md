@@ -27,7 +27,7 @@ When run, the iOS Grids extension will automatically create two things: **guides
 
 The command will not interfere with your existing artwork, but it will resize your canvas, so this is something to keep in mind. 
 
-You can use any of these commands multiple times in one document. Just create a new page and select the command you wish to run. That’s it!
+You can use any of these commands multiple times in one document, but not each page. Just create a new page and select the command you wish to run. That’s it! Things can get weird if you're running them multiple times on the same page. But why would you want to do that?
 
 How to install and use it
 ===============
