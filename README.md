@@ -43,10 +43,8 @@ And when you don't need the "Grid" layer being visible, you can simply toggle it
 How to install and use it
 ===============
 
-1. Get the files from GitHub or right here.
-2. Move your files in the *iOS Grid System* folder into the following directory: 
-	- For Mac users: Applications » Fireworks CS[x] » Configuration » Commands
-	- For Windows users: Local Disk » Program Files (x86) » Adobe » Adobe Fireworks » Configuration » Commands
+1. Get the files from GitHub.
+2. Run the .mxp file. It'll do the rest.
 3. Open Fireworks and create a new document
 	- As previously mentioned, the size doesn’t matter. The command will resize your page accordingly.
 
