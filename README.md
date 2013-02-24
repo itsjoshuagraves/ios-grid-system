@@ -6,7 +6,7 @@ Fireworks grid system for designing iOS apps.
 About the iOS Grid System
 ===============
 
-It’s optimized to create designs for all Apple mobile devices (in both portrait and landscape modes) as of December 2012. It will be also updated as new iOS devices and resolutions arrive.
+The extension is made for Adobe Fireworks and is optimized to help you create designs for all Apple mobile devices (in both portrait and landscape modes) as of February 2013. It will be also updated as new iOS devices and resolutions arrive.
 
 For clarity, here's what's included in the package:
 
@@ -25,16 +25,25 @@ How The Extension Works
 
 When run, the iOS Grids extension will automatically create two things: **guides** and **shapes**. The shapes are placed on their own layer in the page. Shapes are added as a symbol in Fireworks, so it's easy to reuse them anywhere else in your Fw PNG document, if that's your thing.
 
-The command will not interfere with your existing artwork, but it will resize your canvas, so this is something to keep in mind. 
+<h4>1. Guides</h4>
 
-You can use any of these commands multiple times in one document, but not each page. Just create a new page and select the command you wish to run. That’s it! Things can get weird if you're running them multiple times on the same page. But why would you want to do that?
+A set of <em>guides</em> will be placed directly on the page.
+
+You can lock them (menu <code>View &rarr; Guides &rarr; Lock Guides</code>), you can activate snap-to-guides (menu <code>View &rarr; Guides &rarr; Snap to Guides</code>), which can make easier moving and resizing of objects on the page, and you can temporarily hide or show the guides (menu <code>View &rarr; Guides &rarr; Show Guides</code>).
+
+
+<h4>2. "Grid" Layer</h4>
+
+The <em>shapes</em> (which will serve as columns) will be placed on their own, locked layer in the page, named "Grid", and combined into one symbol. Because the shapes are added as a symbol, it's easy to re-use them anywhere else in your document, if that's your thing.
+
+The columns in the "Grid" layer have 33% transparency and objects in your design, placed on layers underneath it, will be visible, but you can move this layer to the bottom of the layer stack, if you prefer.
+
+And when you don't need the "Grid" layer being visible, you can simply toggle its visibility in the Layers panel.
 
 How to install and use it
 ===============
 
-1. Get the files from GitHub or right here at Smashing Magazine.
-	-  If you’re downloading from Smashing Magazine, unzip the file.
-	- If you’re pulling the files from GitHub, you can download a zipped file or clone the repository directly onto your machine. Here’s the command you’ll use in the command line: <pre>git clone git@github.com:joshuamauldin/ios-grid-system.git</pre>
+1. Get the files from GitHub or right here.
 2. Move your files in the *iOS Grid System* folder into the following directory: 
 	- For Mac users: Applications » Fireworks CS[x] » Configuration » Commands
 	- For Windows users: Local Disk » Program Files (x86) » Adobe » Adobe Fireworks » Configuration » Commands
